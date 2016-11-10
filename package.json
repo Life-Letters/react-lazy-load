@@ -1,8 +1,8 @@
 {
-  "name": "react-lazy-image",
+  "name": "react-lazy-load",
   "version": "1.0.0",
   "description": "Progressive load with blur effect",
-  "main": "src/lazy-image.js",
+  "main": "src/lazy_load.js",
   "scripts": {
     "watch": "webpack-dev-server --progress --profile --colors"
   },
