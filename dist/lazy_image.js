@@ -92,13 +92,13 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var Lazyload = function (_React$Component) {
-	  (0, _inherits3.default)(Lazyload, _React$Component);
+	var LazyImage = function (_React$Component) {
+	  (0, _inherits3.default)(LazyImage, _React$Component);
 
-	  function Lazyload(props) {
-	    (0, _classCallCheck3.default)(this, Lazyload);
+	  function LazyImage(props) {
+	    (0, _classCallCheck3.default)(this, LazyImage);
 
-	    var _this = (0, _possibleConstructorReturn3.default)(this, (Lazyload.__proto__ || (0, _getPrototypeOf2.default)(Lazyload)).call(this, props));
+	    var _this = (0, _possibleConstructorReturn3.default)(this, (LazyImage.__proto__ || (0, _getPrototypeOf2.default)(LazyImage)).call(this, props));
 
 	    _this.state = {
 	      image: _this.props.placeholder,
@@ -107,7 +107,7 @@
 	    return _this;
 	  }
 
-	  (0, _createClass3.default)(Lazyload, [{
+	  (0, _createClass3.default)(LazyImage, [{
 	    key: 'componentWillMount',
 	    value: function componentWillMount() {
 	      var _this2 = this;
@@ -139,10 +139,10 @@
 	      );
 	    }
 	  }]);
-	  return Lazyload;
+	  return LazyImage;
 	}(_react2.default.Component);
 
-	exports.default = Lazyload;
+	exports.default = LazyImage;
 	;
 
 	var _temp = function () {
@@ -150,7 +150,7 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Lazyload, 'Lazyload', '/Users/PatrickLai/Projects/react-components/react-lazy-image/src/lazy_image.js');
+	  __REACT_HOT_LOADER__.register(LazyImage, 'LazyImage', '/Users/PatrickLai/Projects/react-components/react-lazy-image/src/lazy_image.js');
 	}();
 
 	;
