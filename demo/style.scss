@@ -1,0 +1,21 @@
+
+body{
+  margin: 0;
+}
+
+.readingsList{
+  max-width: 500px;
+  margin: 0;
+  padding: 3em 0;
+  margin: 0 auto;
+}
+
+.trendyBG{
+  /* Generated with http://gradient.quasi.ink */
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAYUlEQVQYVxXKPQqDQBCA0W92lXGxSeElUiYW/nRqk/vfQ7AJhMWdCVs+eLK8dy/FiCnxmZ5c14ms4+F3KQyPHgWkVaROKjDImSZ2yPzaPIRAE5VsGXPq3BwJKIq1xvf+8Qd/qR8c5n6s3QAAAABJRU5ErkJggg==");
+
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+}
