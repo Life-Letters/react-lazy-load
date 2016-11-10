@@ -14,9 +14,17 @@ import Lazyload from 'lazy-image';
 
 # Development
 
-To run a demo do:
-
+### install
 ```
 yarn install / npm install
+```
+
+### Run demo
+```
 npm run watch (port 8889)
+```
+
+### Build Prod
+```
+npm run build
 ```
