@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames/bind';
 import styles from './lazy_image.scss';
 
-export default class Lazyload extends React.Component {
+export default class LazyImage extends React.Component {
 
   constructor(props){
     super(props);
